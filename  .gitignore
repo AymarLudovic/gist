@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Node.js
+# Force `node_modules` to be ignored, even if it's not in the same directory as the .gitignore file.
+node_modules
+# Force `/.pnp` to be ignored, even if it's not in the same directory as the .gitignore file.
+.pnp
+.pnp.js
+.pnp.cjs
+
+# Runtime data
+.eslintcache
+.vite-node/
+.vs/
+.idea/
+*.tgz
+*.zip
+
+# Build outputs
+dist
+build
+*.local
+.env
+.env.local
+.env.*.local
+
+# Vite
+.vite
+
+# Coverage
+coverage
+
+# macOS
+.DS_Store
+
+# thumbdbs
+Thumbs.db
